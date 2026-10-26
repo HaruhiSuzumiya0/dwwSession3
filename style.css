@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+.Card{
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+    width: 309px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}   
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+    height: 60px;
+    background-color: #1398A0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 19px;
+}
+
+#mostPopular{
+    background-color: #F4E4BC;
+    padding: 50px;
+}
+
+#threeCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 50px;
+}
